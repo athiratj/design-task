@@ -173,7 +173,7 @@ header {
 
 #footer {
     width: 500px;
-    margin: 30px auto;
+    margin: 30px auto 15px;
     color: #828282;
     text-align: center;
 }
@@ -182,7 +182,7 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 7px 10px;
     border: none;
     border-radius: 40px;
     cursor: pointer;
@@ -191,12 +191,13 @@ header {
 }
 
 #footer button .claim-text {
-    margin: 15px 5px 0 0;
+    margin: 12px 5px 0 0;
     text-align: center;
+    font-weight: 600;
 }
 
 #footer button img {
-    width: 40px;
+    width: 35px;
 }
 
 #footer p {

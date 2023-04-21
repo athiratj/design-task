@@ -32,7 +32,7 @@ header {
     text-decoration: none;
     color: #FEFEFE;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
 }
 
@@ -51,14 +51,14 @@ header {
 
 #header .home h4 {
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     margin-top: 50px;
 }
 
 #header .home h1 {
     color: #FFFFFF;
-    font-size: 53px;
+    font-size: 45px;
     font-weight: 800;
     line-height: 75.52px;
 }
@@ -70,14 +70,14 @@ header {
 
 #header .home p {
     color: #E3DAF9;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 30.08px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #header .home button {
-    margin: 30px;
+    margin: 28px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -96,21 +96,24 @@ header {
     line-height: 37.6px;
 }
 
-#header .main {
-    position: relative;
-}
-
 #header .main-image {
     width: 700px;
     position: absolute;
-    top: 50%;
-    margin-left: 400px;
+    z-index: 1;
+    top: 32%;
+    left: 26vw;
+}
+
+.main-div {
+    position: relative;
+    background-color: #EFEFEF;
 }
 
 /* Checkout */
 
 #checkout .card-container {
     margin-top: 350px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -149,7 +152,11 @@ header {
 }
 
 #checkout .card-container .main-card div {
-    margin: 50% 0;
+    height: 50%;
+    margin: 40% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #checkout .card-container .card .main-card h2 {
@@ -166,26 +173,30 @@ header {
 
 #footer {
     width: 500px;
-    margin: 0 auto;
+    margin: 30px auto;
     color: #828282;
     text-align: center;
 }
 
 #footer button {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
     padding: 5px 10px;
     border: none;
-    border-radius: 25px;
+    border-radius: 40px;
     cursor: pointer;
     background-color: #0C0B11;
     color: #FFFFFF;
 }
 
 #footer button .claim-text {
-    margin: 10px;
+    margin: 15px 5px 0 0;
+    text-align: center;
 }
 
 #footer button img {
-    
+    width: 40px;
 }
 
 #footer p {
